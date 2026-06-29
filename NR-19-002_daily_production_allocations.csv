@@ -1,0 +1,16 @@
+record_id,production_date,production_month,well_id,reservoir_zone,record_type,oil_bopd,water_bwpd,gross_gas_mscfd,gas_lift_mscfd,net_produced_gas_mscfd,oil_bbl,water_bbl,gross_gas_mscf,gas_lift_mscf,net_produced_gas_mscf,test_duration_hr,choke_64,allocation_factor,source_note
+DA-001,2026-05-04,2026-05,NR-101,Upper/Lower Sand,daily_allocation,515,205,2450,650,1800,,,,,,24,22,1.0,daily allocation from field meter sheet
+DA-002,2026-05-04,2026-05,NR-102,Upper Sand,daily_allocation,420,110,1120,0,1120,,,,,,24,18,1.0,natural-flow producer
+DA-003,2026-05-04,2026-05,NR-103,Lower Sand,daily_allocation,315,190,1560,420,1140,,,,,,24,16,1.0,gas-lifted producer
+DA-004,2026-05-15,2026-05,NR-101,Upper/Lower Sand,daily_allocation,500,230,2380,660,1720,,,,,,24,22,1.0,daily allocation from field meter sheet
+DA-005,2026-05-15,2026-05,NR-102,Upper Sand,daily_allocation,398,128,1050,0,1050,,,,,,24,18,1.0,natural-flow producer
+DA-006,2026-05-15,2026-05,NR-103,Lower Sand,daily_allocation,300,210,1500,430,1070,,,,,,24,,1.0,choke size not entered on daily sheet
+DA-006-DUP,2026-05-15,2026-05,NR-103,Lower Sand,daily_allocation,300,210,1500,430,1070,,,,,,24,,1.0,duplicate export of DA-006
+MA-001,,2026-05,NR-101,Upper/Lower Sand,monthly_well_total,,,,,,15620,6780,73900,20050,53850,,,,monthly allocation ledger
+MA-002,,2026-05,NR-102,Upper Sand,monthly_well_total,,,,,,12650,3560,32900,0,32900,,,,monthly allocation ledger
+MA-003,,2026-05,NR-103,Lower Sand,monthly_well_total,,,,,,9490,6210,46600,13020,33580,,,,monthly allocation ledger
+MA-003-DUP,,2026-05,NR-103,Lower Sand,monthly_well_total,,,,,,9490,6210,46600,13020,33580,,,,duplicate monthly export of MA-003
+MA-004,,2026-05,FIELD,All,monthly_field_total,,,,,,37760,16550,153400,33070,120330,,,,field-level monthly allocation total
+AF-001,,2026-05,NR-101,Upper/Lower Sand,allocation_factor,,,,,,,,,,,,,0.414,oil allocation factor for commingled separator group
+AF-002,,2026-05,NR-102,Upper Sand,allocation_factor,,,,,,,,,,,,,0.335,oil allocation factor for commingled separator group
+AF-003,,2026-05,NR-103,Lower Sand,allocation_factor,,,,,,,,,,,,,0.251,oil allocation factor for commingled separator group

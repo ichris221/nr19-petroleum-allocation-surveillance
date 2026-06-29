@@ -1,0 +1,9 @@
+record_id,production_month,injector_id,reservoir_zone,record_type,injection_volume_bbl,injection_days,average_injection_bwpd,linked_producer_group,oil_bbl,water_bbl,net_gas_mscf,oil_fvf_rb_stb,gas_reservoir_factor_rb_mscf,reported_voidage_rb,reported_vrr_fraction,target_vrr_low,target_vrr_high,source_note
+INJ-001,2026-05,INJ-11,Upper Sand,monthly_injection,18400,31,593.5,NR-101;NR-102,,,,,,,,,,zone A water-injection meter
+INJ-002,2026-05,INJ-12,Lower Sand,monthly_injection,11500,31,371.0,NR-103,,,,,,,,,,zone B water-injection meter
+INJ-002-DUP,2026-05,INJ-12,Lower Sand,monthly_injection,11500,31,371.0,NR-103,,,,,,,,,,duplicate injection meter export of INJ-002
+INJ-003,2026-05,FIELD,All,monthly_field_injection_total,29900,31,964.5,NR-101;NR-102;NR-103,,,,,,,,,,field injection total from injection ledger
+INJ-004,2026-05,INJ-13,Lower Sand,monthly_injection,,31,,standby injector,,,,,,,,,,meter totalizer not entered
+VR-001,2026-05,INJ-11,Upper Sand,voidage_replacement,18400,,,NR-101;NR-102,28270,10340,86750,1.205,0.065,50020,0.368,0.9,1.1,voidage replacement entry for upper sand
+VR-002,2026-05,INJ-12,Lower Sand,voidage_replacement,11500,,,NR-103,9490,6210,33580,1.235,0.072,20350,0.565,0.9,1.1,voidage replacement entry for lower sand
+VR-002-DUP,2026-05,INJ-12,Lower Sand,voidage_replacement,11500,,,NR-103,9490,6210,33580,1.235,0.072,20350,0.565,0.9,1.1,duplicate voidage replacement entry of VR-002

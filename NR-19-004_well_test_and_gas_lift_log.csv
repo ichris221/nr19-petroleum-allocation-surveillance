@@ -1,0 +1,8 @@
+record_id,log_date,well_id,reservoir_zone,linked_test_record_id,choke_64,tubing_pressure_psig,casing_pressure_psig,gas_lift_mscfd,produced_gas_mscfd,net_gas_mscfd,oil_bopd,water_bwpd,flowing_bhp_psia,note_type,operation_note
+WT-001,2026-05-04,NR-101,Upper/Lower Sand,ST-001,22,610,910,650,2465,1815,510,210,2088,well_test,stable final separator period
+WT-002,2026-05-04,NR-102,Upper Sand,ST-002,18,540,620,0,1120,1120,421,109,2040,well_test,natural-flow test
+WT-003,2026-05-04,NR-103,Lower Sand,ST-003,,480,860,420,1600,1180,330,205,1905,well_test,choke size not recorded during slugging
+WT-004,2026-05-15,NR-101,Upper/Lower Sand,ST-004,22,605,905,660,2375,1715,500,230,2095,well_test,meter run changed after test
+WT-005,2026-05-15,NR-103,Lower Sand,ST-006,16,470,850,430,1500,1070,300,210,1910,well_test,field log gas-lift volume differs from separator sheet
+WT-005-DUP,2026-05-15,NR-103,Lower Sand,WT-005,16,470,850,430,1500,1070,300,210,1910,well_test,duplicate gas-lift log row
+TXT-001,2026-05-18,NR-103,Lower Sand,,,,,,,,,,,operations_note,gas-lift header pressure fluctuated during GLV-103 trim check
